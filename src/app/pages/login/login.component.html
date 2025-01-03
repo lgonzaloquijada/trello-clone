@@ -1,0 +1,64 @@
+<div class="w-screen h-screen bg-gray-50 relative">
+  <div class="absolute w-full h-full">
+    <img
+      class="absolute w-24 left-0 bottom-0 md:w-48 lg:w-96"
+      src="images/trello-left.4f52d13c.svg"
+      alt="bg left"
+    />
+    <img
+      class="absolute w-24 right-0 bottom-0 md:w-48 lg:w-96"
+      src="images/trello-right.e6e102c7.svg"
+      alt="bg right"
+    />
+  </div>
+  <div class="relative w-full m-0 sm:w-6/12 sm:m-auto lg:w-4/12">
+    <header class="pt-6 pb-2 flex justify-center">
+      <img
+        class="w-32"
+        src="/images/logo-gradient-blue-trello.png"
+        alt="logo"
+      />
+    </header>
+    <div class="bg-white rounded shadow py-4 px-6">
+      <div class="mb-4">
+        <h1 class="text-center font-semibold pt-4 pb-8">Log In to Trello</h1>
+        <form action="" novalidate class="space-y-4">
+          <div class="relative">
+            <input
+              placeholder="Enter email"
+              type="text"
+              class="w-full rounded bg-gray-100 border-2 border-gray-300"
+            />
+          </div>
+          <div class="relative">
+            <input
+              placeholder="Enter password"
+              type="text"
+              class="w-full rounded bg-gray-100 border-2 border-gray-300"
+            />
+          </div>
+          <div>
+            <app-btn [btnType]="'submit'" [color]="'primary'">Login</app-btn>
+          </div>
+        </form>
+        <div class="pt-10 text-center text-blue-600 text-sm">
+          <div class="inline-block w-5/12">
+            <a href="" class="hover:underline">Can't login?</a>
+          </div>
+          <div class="inline-block w-2/12">•</div>
+          <div class="inline-block w-5/12">
+            <a href="" class="hover:underline">Create an account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <img
+        src="images/horizontal-logo-onecolor-neutral-atlassian.png"
+        alt="log"
+        loading="lazy"
+        class="w-32 mt-4"
+      />
+    </div>
+  </div>
+</div>
